@@ -1,0 +1,9 @@
+# depslib dependency file v1.0
+1538582327 source:c:\users\florian liehr\desktop\c-inf\hello\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1538582671 source:c:\users\florian liehr\desktop\c-inf\hello\hello.c
+	<stdio.h>
+	<stdlib.h>
+

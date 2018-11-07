@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1538591600 source:c:\users\florian liehr\desktop\c-inf\aufgabe2d\main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+

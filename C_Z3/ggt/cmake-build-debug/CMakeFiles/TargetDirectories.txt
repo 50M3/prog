@@ -1,0 +1,3 @@
+C:/Users/Admin/CLionProjects/ggt/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/CLionProjects/ggt/cmake-build-debug/CMakeFiles/ggt.dir
+C:/Users/Admin/CLionProjects/ggt/cmake-build-debug/CMakeFiles/edit_cache.dir

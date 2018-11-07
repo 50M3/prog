@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Admin/CLionProjects/header/main.c
+stdio.h
+-
+mathe_funktionen.h
+C:/Users/Admin/CLionProjects/header/mathe_funktionen.h
+
+C:/Users/Admin/CLionProjects/header/mathe_funktionen.c
+
+C:/Users/Admin/CLionProjects/header/mathe_funktionen.h
+

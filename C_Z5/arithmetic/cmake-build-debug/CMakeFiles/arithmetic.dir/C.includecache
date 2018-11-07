@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/function.c
+function.h
+C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/function.h
+stdlib.h
+-
+
+C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/function.h
+

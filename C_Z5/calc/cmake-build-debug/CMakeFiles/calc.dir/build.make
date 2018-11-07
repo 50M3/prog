@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\calc
+CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\calc\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/calc.dir/depend.make
@@ -58,30 +58,45 @@ include CMakeFiles/calc.dir/flags.make
 
 CMakeFiles/calc.dir/main.c.obj: CMakeFiles/calc.dir/flags.make
 CMakeFiles/calc.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calc.dir/main.c.obj"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calc.dir\main.c.obj   -c C:\Users\Admin\CLionProjects\calc\main.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/calc.dir/main.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calc.dir\main.c.obj   -c "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\main.c"
 
 CMakeFiles/calc.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/main.c.i"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\CLionProjects\calc\main.c > CMakeFiles\calc.dir\main.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\main.c" > CMakeFiles\calc.dir\main.c.i
 
 CMakeFiles/calc.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/main.c.s"
-	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\CLionProjects\calc\main.c -o CMakeFiles\calc.dir\main.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\main.c" -o CMakeFiles\calc.dir\main.c.s
+
+CMakeFiles/calc.dir/function.c.obj: CMakeFiles/calc.dir/flags.make
+CMakeFiles/calc.dir/function.c.obj: ../function.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/calc.dir/function.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\calc.dir\function.c.obj   -c "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\function.c"
+
+CMakeFiles/calc.dir/function.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/calc.dir/function.c.i"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\function.c" > CMakeFiles\calc.dir\function.c.i
+
+CMakeFiles/calc.dir/function.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/calc.dir/function.c.s"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\function.c" -o CMakeFiles\calc.dir\function.c.s
 
 # Object files for target calc
 calc_OBJECTS = \
-"CMakeFiles/calc.dir/main.c.obj"
+"CMakeFiles/calc.dir/main.c.obj" \
+"CMakeFiles/calc.dir/function.c.obj"
 
 # External object files for target calc
 calc_EXTERNAL_OBJECTS =
 
 calc.exe: CMakeFiles/calc.dir/main.c.obj
+calc.exe: CMakeFiles/calc.dir/function.c.obj
 calc.exe: CMakeFiles/calc.dir/build.make
 calc.exe: CMakeFiles/calc.dir/linklibs.rsp
 calc.exe: CMakeFiles/calc.dir/objects1.rsp
 calc.exe: CMakeFiles/calc.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking C executable calc.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable calc.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\calc.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -94,6 +109,6 @@ CMakeFiles/calc.dir/clean:
 .PHONY : CMakeFiles/calc.dir/clean
 
 CMakeFiles/calc.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\CLionProjects\calc C:\Users\Admin\CLionProjects\calc C:\Users\Admin\CLionProjects\calc\cmake-build-debug C:\Users\Admin\CLionProjects\calc\cmake-build-debug C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles\calc.dir\DependInfo.cmake --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles\calc.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/calc.dir/depend
 

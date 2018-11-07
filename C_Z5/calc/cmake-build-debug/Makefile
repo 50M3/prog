@@ -38,19 +38,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\calc
+CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\calc\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -58,7 +58,7 @@ CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\calc\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -69,7 +69,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\calc\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog2\C_Z5\calc\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -122,6 +122,33 @@ calc/fast:
 	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/build
 .PHONY : calc/fast
 
+function.obj: function.c.obj
+
+.PHONY : function.obj
+
+# target to build an object file
+function.c.obj:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/function.c.obj
+.PHONY : function.c.obj
+
+function.i: function.c.i
+
+.PHONY : function.i
+
+# target to preprocess a source file
+function.c.i:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/function.c.i
+.PHONY : function.c.i
+
+function.s: function.c.s
+
+.PHONY : function.s
+
+# target to generate assembly for a file
+function.c.s:
+	$(MAKE) -f CMakeFiles\calc.dir\build.make CMakeFiles/calc.dir/function.c.s
+.PHONY : function.c.s
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -158,6 +185,9 @@ help:
 	@echo ... calc
 	@echo ... edit_cache
 	@echo ... rebuild_cache
+	@echo ... function.obj
+	@echo ... function.i
+	@echo ... function.s
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s

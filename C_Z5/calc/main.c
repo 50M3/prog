@@ -2,16 +2,13 @@
 //  Name            : main.c
 //  Author          : Florian Liehr
 //  Datum           : 01.11.2018
-//  Version         : 1.0
-//  Copyright       : Creative Commons BY NC SA, 2018, Fachhochschule Suedwestfalen
+//  Version         : 1.3
 //  Beschreibung    : Taschenrechner (+,-,*,/)
 //  ***********************************************************************************************************
 
 // INCLUDE BLOCK
 #include <stdio.h>
-
-// PREDEFINE FUNCTIONS
-void calc();
+#include "function.h"
 
 
 // MAIN FUNCTION
@@ -24,7 +21,14 @@ int main() {
     return 0;
 }
 
-// CALCULATOR FUNCTION
+/* ******************************************************************
+ *                    TASCHENRECHNER FUNKTION                       *
+ *                                                                  *
+ * Eine Function die das Grundgeruest eines Taschenrechners baut    *
+ * und die Eingaben in l_operator, operation und r_operator         *
+ * speichert und an einfache Funktionen weiter gibt.                *
+ * Außerdem gibt es einige Error Checks.                            *
+ * ******************************************************************/
 void calc() {
     char run = 1;
 
@@ -40,10 +44,10 @@ void calc() {
 
         // GET OPERATOR AND OPERATION
         printf("Geben Sie ihre Rechnung ein(+ - * /: \n");
-            scanf("%f", &l_operator);
-            scanf(" %c", &operation);
-            scanf(" %f", &r_operator);
-            getchar();
+        scanf("%f", &l_operator);
+        scanf(" %c", &operation);
+        scanf(" %f", &r_operator);
+        getchar();
 
         // ERROR CHECK OPERATION
         if (operation != '+' && operation != '-' && operation != '*' && operation != '/')
@@ -59,20 +63,19 @@ void calc() {
         // OPERATION SWITCH AND CALCULATION
         switch(operation) {
             case '+':
-                printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator+r_operator);
+                printf("%f %c %f = %f\n", l_operator, operation, r_operator, addition(l_operator, r_operator));
                 break;
             case '-':
-                printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator-r_operator);
+                printf("%f %c %f = %f\n", l_operator, operation, r_operator, subtraktion(l_operator, r_operator));
                 break;
             case '*':
-                printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator*r_operator);
+                printf("%f %c %f = %f\n", l_operator, operation, r_operator, multiplikation(l_operator, r_operator));
                 break;
             case '/':
                 if (r_operator == 0)
                     printf("ERROR\n");
                 else
-
-                printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator/r_operator);
+                    printf("%f %c %f = %f\n", l_operator, operation, r_operator, division(l_operator, r_operator));
                 break;
         }
 

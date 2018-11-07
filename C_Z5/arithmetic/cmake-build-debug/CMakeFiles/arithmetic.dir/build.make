@@ -42,10 +42,10 @@ RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic"
+CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/arithmetic.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/arithmetic.dir/flags.make
 
 CMakeFiles/arithmetic.dir/main.c.obj: CMakeFiles/arithmetic.dir/flags.make
 CMakeFiles/arithmetic.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arithmetic.dir/main.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\arithmetic.dir\main.c.obj   -c "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/arithmetic.dir/main.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\arithmetic.dir\main.c.obj   -c "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\main.c"
 
 CMakeFiles/arithmetic.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/main.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\main.c" > CMakeFiles\arithmetic.dir\main.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\main.c" > CMakeFiles\arithmetic.dir\main.c.i
 
 CMakeFiles/arithmetic.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/main.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\main.c" -o CMakeFiles\arithmetic.dir\main.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\main.c" -o CMakeFiles\arithmetic.dir\main.c.s
 
 CMakeFiles/arithmetic.dir/function.c.obj: CMakeFiles/arithmetic.dir/flags.make
 CMakeFiles/arithmetic.dir/function.c.obj: ../function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/arithmetic.dir/function.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\arithmetic.dir\function.c.obj   -c "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\function.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/arithmetic.dir/function.c.obj"
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\arithmetic.dir\function.c.obj   -c "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\function.c"
 
 CMakeFiles/arithmetic.dir/function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/arithmetic.dir/function.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\function.c" > CMakeFiles\arithmetic.dir\function.c.i
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\function.c" > CMakeFiles\arithmetic.dir\function.c.i
 
 CMakeFiles/arithmetic.dir/function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/arithmetic.dir/function.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\function.c" -o CMakeFiles\arithmetic.dir\function.c.s
+	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\function.c" -o CMakeFiles\arithmetic.dir\function.c.s
 
 # Object files for target arithmetic
 arithmetic_OBJECTS = \
@@ -96,7 +96,7 @@ arithmetic.exe: CMakeFiles/arithmetic.dir/build.make
 arithmetic.exe: CMakeFiles/arithmetic.dir/linklibs.rsp
 arithmetic.exe: CMakeFiles/arithmetic.dir/objects1.rsp
 arithmetic.exe: CMakeFiles/arithmetic.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable arithmetic.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable arithmetic.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\arithmetic.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/arithmetic.dir/clean:
 .PHONY : CMakeFiles/arithmetic.dir/clean
 
 CMakeFiles/arithmetic.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles\arithmetic.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles\arithmetic.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/arithmetic.dir/depend
 

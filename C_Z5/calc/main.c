@@ -68,6 +68,10 @@ void calc() {
                 printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator*r_operator);
                 break;
             case '/':
+                if (r_operator == 0)
+                    printf("ERROR\n");
+                else
+
                 printf("%f %c %f = %f\n", l_operator, operation, r_operator, l_operator/r_operator);
                 break;
         }

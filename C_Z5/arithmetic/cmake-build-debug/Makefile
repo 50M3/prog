@@ -47,10 +47,10 @@ RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic"
+CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug"
+CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles\progress.marks"
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\CLionProjects\programmieren1\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog2\C_Z5\arithmetic\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target

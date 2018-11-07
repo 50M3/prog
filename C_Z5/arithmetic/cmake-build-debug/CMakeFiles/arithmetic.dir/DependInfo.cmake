@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/function.c" "C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir/function.c.obj"
-  "C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/main.c" "C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir/main.c.obj"
+  "C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/function.c" "C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir/function.c.obj"
+  "C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/main.c" "C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

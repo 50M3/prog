@@ -1,3 +1,3 @@
-C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir
-C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Florian Liehr/CLionProjects/programmieren1/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/arithmetic.dir
+C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Florian Liehr/Documents/prog2/C_Z5/arithmetic/cmake-build-debug/CMakeFiles/rebuild_cache.dir

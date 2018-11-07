@@ -53,12 +53,6 @@ void calc() {
         if (operation != '+' && operation != '-' && operation != '*' && operation != '/')
             error = 1;
 
-        // ERROR ABORT
-        if (error) {
-            printf("Keine gueltige Eingabe. ERROR\n");
-            getchar();
-            return;
-        }
 
         // OPERATION SWITCH AND CALCULATION
         switch(operation) {
@@ -73,10 +67,16 @@ void calc() {
                 break;
             case '/':
                 if (r_operator == 0)
-                    printf("ERROR\n");
+                    error = 1;
                 else
                     printf("%f %c %f = %f\n", l_operator, operation, r_operator, division(l_operator, r_operator));
                 break;
+        }
+
+        // ERROR ABORT
+        if (error) {
+            printf("Keine gueltige Eingabe. ERROR\n");
+            return;
         }
 
         // EXIT CHECK

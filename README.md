@@ -1,6 +1,6 @@
 # PROGRAMMIEREN 1 Repositorie
 
-Dieses Repositorie beherbegt **alle** bisher alle von mir bearbeiteten Aufgaben aus dem
+Dieses Repositorie beherbegt **alle** bisher von mir bearbeiteten Aufgaben aus dem
 **ERSTEN** Semester Informatik.
 
 ## Liste aller Aufgaben ##

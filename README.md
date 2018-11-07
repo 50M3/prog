@@ -1,4 +1,4 @@
-#PROGRAMMIEREN 1 Repositorie
+# PROGRAMMIEREN 1 Repositorie
 
 Dieses Repositorie beherbegt **alle** bisher alle von mir bearbeiteten Aufgaben aus dem
 **ERSTEN** Semester Informatik.

@@ -1,0 +1,3 @@
+C:/Users/Florian Liehr/CLionProjects/programmieren1/sort/cmake-build-debug/CMakeFiles/sort.dir
+C:/Users/Florian Liehr/CLionProjects/programmieren1/sort/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Florian Liehr/CLionProjects/programmieren1/sort/cmake-build-debug/CMakeFiles/rebuild_cache.dir

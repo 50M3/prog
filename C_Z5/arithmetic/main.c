@@ -13,7 +13,7 @@
 #include "function.h"
 
 // PREDEFINE BLOCK
-#define MAX_COUNT 100
+#define MAX_COUNT 100000
 
 void arithmetic();
 

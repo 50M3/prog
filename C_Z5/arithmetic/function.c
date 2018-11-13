@@ -69,7 +69,7 @@ float get_abweichung(float zaehler[], int size) {
 
     for (int c = 0; c < size; c++) {
         float calc = 0;
-        calc = * (zaehler+c) - mittelwert;
+        calc = zaehler[c] - mittelwert;
 
         if (calc < 0)
             calc *= -1;

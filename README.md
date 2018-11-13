@@ -10,6 +10,7 @@ Dieses Repositorie beherbegt **alle** bisher von mir bearbeiteten Aufgaben aus d
 - [x] Aufgabenblatt 3
 - [x] Aufgabenblatt 4
 - [x] Aufgabenblatt 5
-- [ ] Aufgabenblatt 6
+- [x] Aufgabenblatt 6
+- [ ] Aufgabenblatt 7
 
 > I love Markdown Text

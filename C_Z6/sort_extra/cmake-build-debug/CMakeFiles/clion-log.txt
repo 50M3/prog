@@ -1,0 +1,4 @@
+"C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/cmake-build-debug

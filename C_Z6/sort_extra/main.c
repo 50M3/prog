@@ -10,7 +10,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include "function.h"
-// MAX VALUE >0 wählen.
+// MAX VALUE >0 & <1000 wählen.
 #define MAX_VALUE 100
 // BEREICH >0 wählen.
 #define BEREICH 100

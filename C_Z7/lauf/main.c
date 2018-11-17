@@ -4,7 +4,7 @@
 void compress(char *string, int length);
 
 int main() {
-    char string[255] = "";
+    char string[255];
     printf("String:\n");
     scanf("%[^\n]", string);
     getchar();
@@ -23,16 +23,19 @@ void compress(char *string, int length){
     int j = 0;
     int count = 0;
 
-    while(j <= length){
+    while(j < length){
 
         while(string[j] == string[j+1]) {
             count++;
             j++;
         }
-        printf("%c%d", string[j], count+1);
+        if(count <= 1){
+            printf("%c", string[j]);
+        } else if(count > 1) {
+            printf("%c%d", string[j], count + 1);
+        }
         count = 0;
         j++;
-
     }
 
 }

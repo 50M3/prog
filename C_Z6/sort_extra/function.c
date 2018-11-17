@@ -8,6 +8,29 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "function.h"
+/************************************************
+ *                                              *
+ * Eine Funktion die bevor der eigentliche      *
+ * Algorithmus beginnt falsche Eingaben         *
+ * kontrolliert und abfängt.                    *
+ *                                              *
+ ************************************************/
+int errorcheck(int size, int bereich, int sort){
+    char error = 0;
+    if (size > 1000 || size < 0)
+        error = 1;
+
+    if (bereich <= 0)
+        error = 1;
+
+    if (sort < 0 || sort > 1)
+        error = 1;
+
+    if (error){
+        printf("Falsche Eingabe!\n");
+        exit(-1);
+    }
+}
 /**********************************************
  *                                            *
  * Eine Funktion die Randomzahlen in einem    *
@@ -70,28 +93,5 @@ void selection_sort(int array[], int size, int order){
                 array[position] = kopie;
             }
         }
-    }
-}
-/************************************************
- *                                              *
- * Eine Funktion die bevor der eigentliche      *
- * Algorithmus beginnt falsche Eingaben         *
- * kontrolliert und abfängt.                    *
- *                                              *
- ************************************************/
-int errorcheck(int size, int bereich, int sort){
-    char error = 0;
-    if (size > 1000 || size < 0)
-        error = 1;
-
-    if (bereich <= 0)
-        error = 1;
-
-    if (sort < 0 || sort > 1)
-        error = 1;
-
-    if (error){
-        printf("Falsche Eingabe!\n");
-        exit(-1);
     }
 }

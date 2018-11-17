@@ -4,8 +4,8 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/function.c" "C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/cmake-build-debug/CMakeFiles/sort_extra.dir/function.c.obj"
-  "C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/main.c" "C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/cmake-build-debug/CMakeFiles/sort_extra.dir/main.c.obj"
+  "C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra/function.c" "C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra/cmake-build-debug/CMakeFiles/sort_extra.dir/function.c.obj"
+  "C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra/main.c" "C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra/cmake-build-debug/CMakeFiles/sort_extra.dir/main.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

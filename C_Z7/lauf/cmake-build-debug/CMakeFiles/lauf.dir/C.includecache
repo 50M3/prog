@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Admin/CLionProjects/rand/main.c
+C:/Users/Admin/CLionProjects/lauf/main.c
 stdio.h
 -
 stdlib.h
 -
-time.h
+string.h
 -
 

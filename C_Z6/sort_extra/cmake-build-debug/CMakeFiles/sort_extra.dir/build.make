@@ -33,19 +33,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra"
+CMAKE_SOURCE_DIR = C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug"
+CMAKE_BINARY_DIR = C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/sort_extra.dir/depend.make
@@ -58,29 +58,29 @@ include CMakeFiles/sort_extra.dir/flags.make
 
 CMakeFiles/sort_extra.dir/main.c.obj: CMakeFiles/sort_extra.dir/flags.make
 CMakeFiles/sort_extra.dir/main.c.obj: ../main.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sort_extra.dir/main.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sort_extra.dir\main.c.obj   -c "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\main.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/sort_extra.dir/main.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sort_extra.dir\main.c.obj   -c C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\main.c
 
 CMakeFiles/sort_extra.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sort_extra.dir/main.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\main.c" > CMakeFiles\sort_extra.dir\main.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\main.c > CMakeFiles\sort_extra.dir\main.c.i
 
 CMakeFiles/sort_extra.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sort_extra.dir/main.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\main.c" -o CMakeFiles\sort_extra.dir\main.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\main.c -o CMakeFiles\sort_extra.dir\main.c.s
 
 CMakeFiles/sort_extra.dir/function.c.obj: CMakeFiles/sort_extra.dir/flags.make
 CMakeFiles/sort_extra.dir/function.c.obj: ../function.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sort_extra.dir/function.c.obj"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sort_extra.dir\function.c.obj   -c "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\function.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/sort_extra.dir/function.c.obj"
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\sort_extra.dir\function.c.obj   -c C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\function.c
 
 CMakeFiles/sort_extra.dir/function.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/sort_extra.dir/function.c.i"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\function.c" > CMakeFiles\sort_extra.dir\function.c.i
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\function.c > CMakeFiles\sort_extra.dir\function.c.i
 
 CMakeFiles/sort_extra.dir/function.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/sort_extra.dir/function.c.s"
-	C:\PROGRA~2\CODEBL~1\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\function.c" -o CMakeFiles\sort_extra.dir\function.c.s
+	C:\PROGRA~2\MINGW-~1\I686-8~1.0-P\mingw32\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\function.c -o CMakeFiles\sort_extra.dir\function.c.s
 
 # Object files for target sort_extra
 sort_extra_OBJECTS = \
@@ -96,7 +96,7 @@ sort_extra.exe: CMakeFiles/sort_extra.dir/build.make
 sort_extra.exe: CMakeFiles/sort_extra.dir/linklibs.rsp
 sort_extra.exe: CMakeFiles/sort_extra.dir/objects1.rsp
 sort_extra.exe: CMakeFiles/sort_extra.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sort_extra.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking C executable sort_extra.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\sort_extra.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -109,6 +109,6 @@ CMakeFiles/sort_extra.dir/clean:
 .PHONY : CMakeFiles/sort_extra.dir/clean
 
 CMakeFiles/sort_extra.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug" "C:\Users\Florian Liehr\CLionProjects\programmieren1\sort_extra\cmake-build-debug\CMakeFiles\sort_extra.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug C:\Users\Admin\Documents\prog_git\C_Z6\sort_extra\cmake-build-debug\CMakeFiles\sort_extra.dir\DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/sort_extra.dir/depend
 

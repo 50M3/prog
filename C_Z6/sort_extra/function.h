@@ -1,6 +1,10 @@
-//
-// Created by Florian Liehr on 14.11.2018.
-//
+//  ***********************************************************************************************************
+//  Name            : function.h
+//  Autor           : Florian Liehr
+//  Datum           : 14.11.2018
+//  Version         : 1.0
+//  Beschreibung    : Funktionen Predefines
+//  ***********************************************************************************************************
 
 #ifndef SORT_EXTRA_FUNCTION_H
 #define SORT_EXTRA_FUNCTION_H

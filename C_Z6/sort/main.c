@@ -9,7 +9,6 @@
 // INCLUDE BLOCK
 #include <stdio.h>
 #include <stdlib.h>
-#define MAX_VALUE 1000
 
 //PREDEFIN BLOCK
 void ausgabe();
@@ -34,26 +33,27 @@ void ausgabe(){
 
     // INIT
     char error = 0;
-    //int count = 0;
+    int count = 0;
     int bereich = 0;
+    int ubereich = 0;
     int order = 0;
 
     // EINGABEN
-    /*printf("Geben Sie die Anzahl der Durchlaeufe ein(0-2000:\n");
+    printf("Geben Sie die Anzahl der Durchlaeufe ein(1-2000:\n");
     scanf("%d", &count);
-    getchar();*/
 
     printf("Geben Sie den Zahlenbereich ein:\n");
     scanf("%d", &bereich);
-    getchar();
+
+    printf("Geben Sie den unteren Bereich ein:\n");
+    scanf("%d", &ubereich);
 
     printf("Sortierung(1: Aufsteigend | 0: Absteigend):\n");
     scanf("%d", &order);
-    getchar();
 
     // ERROR CHECK
-    /*if (count > 2000 || count < 1)
-        error = 1;*/
+    if (count > 2000 || count < 1)
+        error = 1;
 
     if (bereich <= 0)
         error = 1;
@@ -69,24 +69,24 @@ void ausgabe(){
 
     // CREATE ARRAY
     //int *random = malloc(count * sizeof(int));
-    int random[MAX_VALUE] = {0};
+    int random[count];
 
     // FILL ARRAY
-    for (int i = 0; i < MAX_VALUE; i++){
+    for (int i = 0; i < count; i++){
         random[i] = rnd_int(bereich);
     }
 
     // PRINTF UNSORTIERTE LISTE
     printf("**UNSORTIERT**\n");
-    print_array(MAX_VALUE, random);
+    print_array(count, random);
     printf("\n\n");
 
     // SORTIERUNG
-    selection_sort(MAX_VALUE, random, order);
+    selection_sort(count, random, order);
 
     // PRINTF SORTIERTE LISTE
     printf("**SORTIERT**\n");
-    print_array(MAX_VALUE, random);
+    print_array(count, random);
 }
 
 /**********************************************

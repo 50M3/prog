@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra
+# Install script for directory: C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/Florian Liehr/CLionProjects/programmieren1/sort_extra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Admin/Documents/prog_git/C_Z6/sort_extra/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

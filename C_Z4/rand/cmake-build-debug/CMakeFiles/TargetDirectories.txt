@@ -1,3 +1,3 @@
-C:/Users/Admin/CLionProjects/rand/cmake-build-debug/CMakeFiles/rand.dir
-C:/Users/Admin/CLionProjects/rand/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Admin/CLionProjects/rand/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Admin/Documents/prog_git/C_Z4/rand/cmake-build-debug/CMakeFiles/rand.dir
+C:/Users/Admin/Documents/prog_git/C_Z4/rand/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Admin/Documents/prog_git/C_Z4/rand/cmake-build-debug/CMakeFiles/rebuild_cache.dir

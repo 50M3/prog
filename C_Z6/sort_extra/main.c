@@ -14,8 +14,8 @@
 #define MAX_VALUE 100
 // BEREICH >0 wählen.
 #define BEREICH 100
-// 0 = Aufsteigend 1 = Absteigend
-#define SORT 1
+// 0 = Absteigend 1 = Aufsteigend
+#define SORT 0
 
 /******************************************************
  *                                                    *

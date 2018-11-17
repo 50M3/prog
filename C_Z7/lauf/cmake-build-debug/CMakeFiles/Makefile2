@@ -49,19 +49,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.2.5\bin\cmake\win\bin\cmake.exe" -E remove -f
+RM = "C:\Users\Florian Liehr\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\182.4892.24\bin\cmake\win\bin\cmake.exe" -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\Admin\CLionProjects\lauf
+CMAKE_SOURCE_DIR = "C:\Users\Florian Liehr\Documents\prog_git\C_Z7\lauf"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\lauf\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Florian Liehr\Documents\prog_git\C_Z7\lauf\cmake-build-debug"
 
 #=============================================================================
 # Target rules for target CMakeFiles/lauf.dir
@@ -70,7 +70,7 @@ CMAKE_BINARY_DIR = C:\Users\Admin\CLionProjects\lauf\cmake-build-debug
 CMakeFiles/lauf.dir/all:
 	$(MAKE) -f CMakeFiles\lauf.dir\build.make CMakeFiles/lauf.dir/depend
 	$(MAKE) -f CMakeFiles\lauf.dir\build.make CMakeFiles/lauf.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\Admin\CLionProjects\lauf\cmake-build-debug\CMakeFiles --progress-num=1,2 "Built target lauf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir="C:\Users\Florian Liehr\Documents\prog_git\C_Z7\lauf\cmake-build-debug\CMakeFiles" --progress-num=1,2 "Built target lauf"
 .PHONY : CMakeFiles/lauf.dir/all
 
 # Include target in all.
@@ -80,9 +80,9 @@ all: CMakeFiles/lauf.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/lauf.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\lauf\cmake-build-debug\CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog_git\C_Z7\lauf\cmake-build-debug\CMakeFiles" 2
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/lauf.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Admin\CLionProjects\lauf\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Florian Liehr\Documents\prog_git\C_Z7\lauf\cmake-build-debug\CMakeFiles" 0
 .PHONY : CMakeFiles/lauf.dir/rule
 
 # Convenience name for target.

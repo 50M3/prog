@@ -13,8 +13,8 @@
 
 // PREDEFINE BLOCK
 #define MAX_VALUE 255
-void compress(char *string, int length);
 int errorcheck(int length);
+void compress(char *string, int length);
 
 /**********************************************
  *                                            *
@@ -27,6 +27,7 @@ int main() {
 
     // CREATE ARRAY
     char string[MAX_VALUE];
+
     // FILL ARRAY WITH STRING
     printf("String:\n");
     scanf("%[^\n]", string);
@@ -39,12 +40,12 @@ int main() {
 
     // PRINTF BLOCK
     printf("Iput: %s\n", string);
-    printf("Length: %d\n", length);
+    printf("String length: [%d]\n", length);
 
     // STRING COMPRESSION
+    printf("Output: ");
     compress(string, length);
 
-    getchar();
     return 0;
 }
 /**********************************************
@@ -55,6 +56,7 @@ int main() {
  * durch die Nutzung der Lauflängenkodierung  *
  *                                            *
  **********************************************/
+
 void compress(char *string, int length){
     int j = 0;
     int count = 0;
@@ -68,12 +70,14 @@ void compress(char *string, int length){
             if (count < 1) {
                 printf("%c", string[j]);
             } else if (count >= 1) {
-                printf("%c%d", string[j], count + 1);
+                printf("%c%d", string[j], count+1);
+
             }
             count = 0;
             j++;
         }
 }
+
 /**********************************************
  *                                            *
  *           ERRORCHECK FUNCTION              *

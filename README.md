@@ -11,6 +11,7 @@ Dieses Repositorie beherbegt **alle** bisher von mir bearbeiteten Aufgaben aus d
 - [x] Aufgabenblatt 4
 - [x] Aufgabenblatt 5
 - [x] Aufgabenblatt 6
-- [ ] Aufgabenblatt 7
+- [x] Aufgabenblatt 7
+- [ ] Aufgabenblatt 8
 
 > I love Markdown Text

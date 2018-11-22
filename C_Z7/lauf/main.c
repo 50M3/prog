@@ -40,7 +40,7 @@ int main() {
 
     // PRINTF BLOCK
     printf("Iput: %s\n", string);
-    printf("String length: [%d]\n", length);
+    printf("String length: %d\n", length);
 
     // STRING COMPRESSION
     printf("Output: ");
@@ -62,6 +62,8 @@ void compress(char *string, int length){
     int count = 0;
 
         while (j < length) {
+            if(string[j] == '\0')
+                return;
 
             while (string[j] == string[j+1]) {
                 count++;

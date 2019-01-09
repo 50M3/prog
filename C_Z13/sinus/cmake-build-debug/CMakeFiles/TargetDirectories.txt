@@ -1,0 +1,3 @@
+C:/Users/Flo/CLionProjects/sinus/cmake-build-debug/CMakeFiles/sinus.dir
+C:/Users/Flo/CLionProjects/sinus/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Flo/CLionProjects/sinus/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+C:\Users\Flo\AppData\Local\JetBrains\Toolbox\apps\CLion\ch-0\183.4588.63\bin\cmake\win\bin\cmake.exe -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" C:\Users\Flo\CLionProjects\random_init
+-- Configuring done
+-- Generating done
+-- Build files have been written to: C:/Users/Flo/CLionProjects/random_init/cmake-build-debug
